@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honda Show room</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <style>
+         body{
+            background-color: yellow;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0px;
+            background-repeat: no-repeat;
+           }
+        #header-nav{
+            background-color: brown;
+            margin-right: 0px;
+            width: 100%;
+        }
+        #header-nav .container{
+            margin-left: 0px;
+            margin-right:0px;
+        }
+        .jumbotron .container{
+            background-repeat:no-repeat;
+            background-size: 100% 100%;
+            background-position: cover;
+            margin:10px 0px 10px 45px;
+        }
+        img{
+            background-repeat: no-repeat;
+        }
+       
+        
+         
+    </style>
+    <!-- CSS only -->
+
+</head>
+<body>
+    <header>
+        <nav id='header-nav' class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-brand">
+                    <h1><span style="color:#00FFFF; font-size: 30px; margin: 0px;">hello,{{name}}</span>  Welcome to Honda show room</h1>
+
+                </div>
+                <ul class="nav ">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="twowheelerbook">Two Wheeler</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="fourwheelerbook">Four Wheeler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="customerlogout">Logout</a>
+                      </li>
+    
+                  </ul>
+
+            </div>
+
+        </nav>
+        
+    </header>
+    <div  class="jumbotron">
+        <div class="container">
+            <img src="https://www.honda2wheelersindia.com/assets/images/home-banner/BookNow2020-homepage.webp" alt="">
+        
+        </div>
+    
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
